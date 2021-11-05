@@ -1,0 +1,9 @@
+@layer components {
+    .badge-primary {
+        @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-600 text-primary-50
+    } 
+
+    .badge-secondary {
+        @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-secondary-600 text-secondary-50
+    } 
+}

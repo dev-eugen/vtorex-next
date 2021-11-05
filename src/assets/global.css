@@ -1,0 +1,13 @@
+#app{
+    @apply font-body
+}
+
+
+.hide-scroll{
+    scrollbar-width: none;
+}
+   
+
+.fixed-width{
+    width: calc(100% - 288px);
+}

@@ -1,0 +1,29 @@
+
+    .button-hover-primary{
+        @apply inline-flex whitespace-nowrap items-center px-4 py-2 border-2 border-primary-600 text-xs font-medium rounded-full shadow-sm text-primary-600 bg-white hover:bg-primary-600 hover:text-white focus:outline-none 
+    }
+
+    .btn{
+        @apply inline-flex whitespace-nowrap items-center px-4 py-2 border-2 border-primary-600 text-xs font-medium rounded-full shadow-sm text-primary-600 bg-white hover:bg-primary-600 hover:text-white focus:outline-none 
+    }
+
+    .btn-lg{
+        @apply inline-flex whitespace-nowrap items-center px-4 py-2 border-2 border-primary-600 font-medium rounded-md shadow-sm text-gray-50 bg-primary-600 hover:bg-primary-700 hover:text-gray-100 focus:outline-none 
+    }
+
+
+    .button-hover-primary-color{
+        @apply inline-flex whitespace-nowrap items-center px-4 py-2 border-2 border-primary-900 text-xs font-medium rounded-full shadow-sm text-primary-600 bg-white hover:bg-primary-600 hover:text-white focus:outline-none 
+    }
+
+    .button-cube-hover-primary{
+        @apply inline-flex whitespace-nowrap items-center px-2 py-2 border-2 border-primary-600 text-xs font-medium rounded-md shadow-sm text-primary-600 bg-white hover:bg-primary-600 hover:text-white focus:outline-none 
+    }
+
+    .button-hover-box-primary{
+        @apply inline-flex whitespace-nowrap items-center justify-center h-9  w-9 border  text-xs font-medium rounded-md text-gray-500 bg-white hover:bg-primary-600 hover:text-white focus:outline-none 
+    }
+
+    .button-hover-primary-active{
+        @apply inline-flex whitespace-nowrap items-center px-4 py-2 border-2 border-primary-500 text-xs font-medium rounded-full shadow-sm bg-primary-500 text-white focus:outline-none 
+    }

@@ -1,0 +1,13 @@
+@layer components {
+    .label-primary{
+        display: block;
+        font-size: 0.875rem/* 14px */;
+        line-height: 1.25rem/* 20px */;
+        --tw-text-opacity: 1;
+        color: rgba(161, 161, 170, var(--tw-text-opacity));
+        margin-left: 0.5rem/* 8px */;
+    }
+    .label-big{
+        @apply font-sans text-lg text-gray-600 whitespace-nowrap w-full bg-primary-100 pl-2 rounded-t-lg
+    }
+}
